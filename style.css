@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   gap: 10px
@@ -55,4 +55,34 @@ main {
   left: 630px;
   
 }
-  
+
+.challenge {
+  margin-bottom: 100px;
+  border-bottom: 1px solid #000;
+}
+
+.mavi {
+  display: flex;
+  gap: 40px;
+  width: 50%;
+  height: 50%;
+  flex-wrap: wrap;
+}
+
+/* Cartão Individual */
+.mv {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px pink;
+  background: #fff;
+  flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
+  flex-shrink: 0;
+  flex-basis: 25%;
+}
+
+.mvp {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
