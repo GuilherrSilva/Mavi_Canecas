@@ -86,3 +86,14 @@ main {
   width: 100%;
   border-radius: 10px;
 }
+
+ .mv:hover {
+  background-color: pink;
+  transform: scale(1.1);
+  transition-property: transform, background-color;
+  transition-duration: 0.7s;
+}
+
+hover {
+  position: fixed;
+}
