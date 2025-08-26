@@ -33,11 +33,7 @@ nav {
   font-family: Monotype Corsiva;
 }
 
-main {
-  background: url("bg.jpg") no-repeat center center;
-  background-size: cover;
-  height: 92vh;
-}
+
 
 .nav-list {
   list-style: none;
@@ -71,6 +67,7 @@ footer {
   height: 100px;
   margin: 0;
   overflow: hidden;
+  margin-top: 90px;
 }
   
 .border {
@@ -112,4 +109,49 @@ footer {
 header {
   height: 100%;
   overflow: hidden;
+}
+
+.challenge {
+  margin-bottom: 100px;
+  border-bottom: 1px solid #000;
+  
+  
+}
+
+  .mavi {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 50%;
+  height: 50%;
+  flex-wrap: wrap;
+  
+  /* Cartão Individual */
+.mv {
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 10px 10px #23235e;
+  background: #fff;
+  flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
+  flex-shrink: 0;
+  flex-basis: 25%;
+}
+
+.mvp {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.mv:hover {
+  background-color: #23235e;
+  transform: scale(1.1);
+  transition-property: transform, background-color;
+  transition-duration: 0.7s;
+}
+
+hover {
+  position: fixed;
 }
