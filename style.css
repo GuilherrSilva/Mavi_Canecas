@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   gap: 10px
@@ -25,7 +25,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: Constantia;
-  background: #23232e;
+  background: #23235e;
   height: 18vh;
 }
 
@@ -56,44 +56,60 @@ main {
   
 }
 
-.challenge {
-  margin-bottom: 100px;
-  border-bottom: 1px solid #000;
+@keyframes aparecer {
+  from {opacity:0; transform: translateY(20px);}
+  to{opacity: 1; transform: translateY(0);}
+  
 }
 
-.mavi {
+.position, li, .boxshadow {
+  animation: aparecer 1s ease-in-out
+}
+
+footer {
+  background-color: #23235e;
+  height: 100px;
+  margin: 0;
+  overflow: hidden;
+}
+  
+.border {
+  border-radius: 50%
+}
+
+.display {
+  display: grid;;
+  justify-content: end;
+  padding: 10px;
+}
+
+.position {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.position:hover {
+  opacity: 0.5;
+}
+
+.boxshadow, ul {
+  text-shadow: 9px 13px 9px black;
+}
+
+.flex {
   display: flex;
-  gap: 40px;
-  width: 50%;
-  height: 50%;
-  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* Cartão Individual */
-.mv {
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: 10px 10px pink;
-  background: #fff;
-  flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
-  flex-shrink: 0;
-  flex-basis: 25%;
+.position2 {
+ 
+  
 }
 
-.mvp {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-}
-
- .mv:hover {
-  background-color: pink;
-  transform: scale(1.1);
-  transition-property: transform, background-color;
-  transition-duration: 0.7s;
-}
-
-hover {
-  position: fixed;
+header {
+  height: 100%;
+  overflow: hidden;
 }
