@@ -44,13 +44,16 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
 }
-
+/*
 .position {
   position: relative;
   top: -65px;
   left: 630px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
   
-}
+}*/
 
 @keyframes aparecer {
   from {opacity:0; transform: translateY(20px);}
@@ -80,12 +83,6 @@ footer {
   padding: 10px;
 }
 
-.position {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
 .position:hover {
   opacity: 0.5;
 }
@@ -101,11 +98,6 @@ footer {
   padding: 0px;
 }
 
-.position2 {
- 
-  
-}
-
 header {
   height: 100%;
   overflow: hidden;
@@ -113,45 +105,112 @@ header {
 
 .challenge {
   margin-bottom: 100px;
-  border-bottom: 1px solid #000;
-  
+  border-bottom: 1px solid #000; 
   
 }
 
   .mavi {
   display: flex;
-  justify-content: center;
+  justify-content: end;
   gap: 40px;
-  width: 50%;
-  height: 50%;
+  height: 70%;
+  width: 80%;
   flex-wrap: wrap;
-  
-  /* Cartão Individual */
-.mv {
+  margin-top: 100px;
+  flex-shrink: 0;
+  flex-basis: 30%; 
+}
+    
+  .mv {
+    
   border: 1px solid #000;
   border-radius: 20px;
   padding: 20px;
+  gap: 2em;
   box-shadow: 10px 10px #23235e;
   background: #fff;
-  flex-grow: 0; /* Proporção de crescimento do card em relação ao espaço vazio */
-  flex-shrink: 0;
-  flex-basis: 25%;
+  transition-property: transform, background-color;
+  transition-duration: 0.7s;
+  flex-basis: 12%;
+  flex-shrink: 0;  
 }
 
 .mvp {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
-  
+  flex-basis: 12%;
+  flex-shrink: 0;
+  flex-grow: 30%;
+  border-radius: 20px;
 }
 
 .mv:hover {
   background-color: #23235e;
   transform: scale(1.1);
   transition-property: transform, background-color;
-  transition-duration: 0.7s;
+  transition-duration: 0.7s, 0.7s;
 }
 
 hover {
   position: fixed;
 }
+    
+.circle {
+ animation-name: Main;
+ animation-duration: 1s;
+ 
+}
+
+@keyframes Main {
+  from {opacity:0; transform: translateY(20px);}
+  to{opacity: 1; transform: translateY(0);}
+  
+}
+
+.introduct {
+	display: flex;
+    justify-content: space-evenly;
+	font-family: Bodoni MP;
+	background-image: url(https://i.pinimg.com/736x/17/a5/c4/17a5c4fbaaeb94371249f86e6752eee7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center; 
+	filter: brightness(0.9) contrast(1.1) saturate(1.2);
+  
+}
+  
+  .txt {
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  text-shadow: 2px 2px 4px black;
+  color: white;
+  font-weight: bold;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  
+  }
+  
+  .txt2 {
+  font-size: 20px;
+  margin-top: 1em;
+  color: white;
+  font-weight: bold;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  
+  }
+  
+  .bord {	
+	margin-top: 60px;
+	margin-left: 200px;
+  }
+  
+  .bord2 {
+	  margin-top: 65px;
+	  margin-right: 200px;
+  }
