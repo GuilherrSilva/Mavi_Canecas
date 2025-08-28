@@ -169,7 +169,7 @@ hover {
 	display: flex;
     justify-content: space-evenly;
 	font-family: Bodoni MP;
-	background-image: url(https://i.pinimg.com/736x/17/a5/c4/17a5c4fbaaeb94371249f86e6752eee7.jpg);
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98jM0ug_Kv2LSOMnYJCKHJlFsK6iMpwg0VQFI2pp619MFBdVVNOFXjbZUlQvtDR0vDKE&usqp=CAU);
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center; 
@@ -214,3 +214,75 @@ hover {
 	  margin-top: 65px;
 	  margin-right: 200px;
   }
+  
+  .pp {
+  font-size: 150px;
+  font-family: Californian FB;
+  color: orange; 
+  background-color: #23235e;
+   text-shadow: 
+    -1px -1px 0 orange,  
+     1px -1px 0 orange,
+    -1px  1px 0 orange,
+     1px  1px 0 orange;
+	 margin-top: 10px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*<div class="bord2">
+      <img src="Imagens/Mescla.png" width="400px" class="circle">
+      </img>
+      </div>*/
