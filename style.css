@@ -67,7 +67,7 @@ nav {
 
 footer {
   background-color: #23235e;
-  height: 100px;
+
   margin: 0;
   overflow: hidden;
   margin-top: 90px;
@@ -169,7 +169,7 @@ hover {
 	display: flex;
     justify-content: space-evenly;
 	font-family: Bodoni MP;
-	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS98jM0ug_Kv2LSOMnYJCKHJlFsK6iMpwg0VQFI2pp619MFBdVVNOFXjbZUlQvtDR0vDKE&usqp=CAU);
+	background-image: url(https://i.pinimg.com/736x/17/a5/c4/17a5c4fbaaeb94371249f86e6752eee7.jpg);
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center; 
@@ -216,7 +216,7 @@ hover {
   }
   
   .pp {
-  font-size: 150px;
+  font-size: 100px;
   font-family: Californian FB;
   color: orange; 
   background-color: #23235e;
@@ -228,7 +228,40 @@ hover {
 	 margin-top: 10px;
   }
   
+  .bora {
+	  display: grid;
+	  justify-content: center;
+	  text-shadow: 
+    -1px -1px 0 Black,
+     1px -1px 0 Black,
+    -1px  1px 0 Black,
+     1px  1px 0 Black;
+	 color: white;
+	  
+  }
   
+  .ftr2 {
+	  display: flex;
+	  justify-content: center;
+  }
+  
+  .cddc {
+	  display: block;
+	  justify-content: center;
+  }
+  
+  .arm {
+	  margin-bottom: 22px;
+  }
+  
+  .clr2 {
+	color: white;
+	text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
   
   
   
