@@ -250,11 +250,9 @@ hover {
 	  justify-content: center;
   }
   
-  .arm {
-	  margin-bottom: 22px;
-  }
   
   .clr2 {
+	itens-align: center;
 	color: white;
 	text-shadow: 
     -1px -1px 0 black,  
