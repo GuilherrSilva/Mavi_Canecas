@@ -44,16 +44,6 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
 }
-/*
-.position {
-  position: relative;
-  top: -65px;
-  left: 630px;
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-  
-}*/
 
 @keyframes aparecer {
   from {opacity:0; transform: translateY(20px);}
@@ -118,7 +108,7 @@ header {
   flex-wrap: wrap;
   margin-top: 100px;
   flex-shrink: 0;
-  flex-basis: 30%; 
+  flex-basis: 30%;  
 }
     
   .mv {
@@ -167,15 +157,15 @@ hover {
 
 .introduct {
 	display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 	font-family: Bodoni MP;
-	background-image: url(https://sdmntprwestus.oaiusercontent.com/files/00000000-dd9c-6230-ad2c-e0c3865c5ec9/raw?se=2025-08-29T20%3A41%3A51Z&sp=r&sv=2024-08-04&sr=b&scid=5abf3778-755b-5792-b0bc-410e6f31eada&skoid=5c72dd08-68ae-4091-b4e1-40ccec0693ae&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-08-29T13%3A03%3A05Z&ske=2025-08-30T13%3A03%3A05Z&sks=b&skv=2024-08-04&sig=ejgkTH1o09lkyAAbRMvDBhN%2Bvm1UnjzONOppMeBzfb0%3D);
+	
+	background-position: center;
 	height: 700px;
 	width: 1200px;
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center; 
-	filter: brightness(0.9) contrast(1.1) saturate(1.2);
 	margin-top: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
@@ -255,11 +245,9 @@ hover {
 	  justify-content: center;
   }
   
-  .arm {
-	  margin-bottom: 22px;
-  }
   
   .clr2 {
+	itens-align: center;
 	color: white;
 	text-shadow: 
     -1px -1px 0 black,  
@@ -269,9 +257,14 @@ hover {
   }
   
      .carrossel {
-      width: 200%;
+	 background-image: url(Imagens/Mavi.png);
+	   background-repeat: no-repeat;
+    background-size: cover;      
+    background-position: center;
+      width: 300%;
       max-width: 800px;
       margin: auto;
+	  margin-left: 500px;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -279,6 +272,7 @@ hover {
 
     .slides {
       display: flex;
+	  justify-content: center;
       width: 400%;
       animation: slide 12s infinite;
     }
@@ -295,13 +289,52 @@ hover {
       100% {margin-left: 0;}
     }
 
+
   
+  @media (max-width: 120px) {
+	  .carrosel {
+		margin-left: 900px;  
+	  }
+	  
+	  
+  }
   
+  .ppp {
+	 color: white; 
+	  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+	font-size: 29px;
+	
+	margin-right: 500px;
+	 
+  }
   
+  .ppp2 {
+	 color: white; 
+	  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+	font-size: 36px;
+	background-image: linear-gradient(to bottom, #23235e, #EBF5FC);
+	margin-right: 1600px;
+	 
+  }
   
+  .pfvr {
+	  display:flex;
+	  justify-content: space-evenly;
+	  margin: 0;
+	  
+  }
   
-  
-  
+  .pfvr2 {
+	  di
+  }
   
   
   
