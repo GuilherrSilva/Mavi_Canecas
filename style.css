@@ -163,16 +163,15 @@ hover {
 	display: flex;
     justify-content: center;
 	font-family: Bodoni MP;
-	
+	background-color:  #23235e;
 	background-position: center;
-	height: 700px;
-	width: 1200px;
+	
     background-repeat: no-repeat;
     background-size: cover;      
     background-position: center; 
-	margin-top: 100px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
   
 }
   
@@ -224,7 +223,7 @@ hover {
      1px -1px 0 orange,
     -1px  1px 0 orange,
      1px  1px 0 orange;
-	 margin-top: 10px;
+	 margin-top: 0px;
   }
   
   .bora {
