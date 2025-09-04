@@ -106,12 +106,12 @@ footer {
 	.block {
 	  display: flex;
 	  justify-content: center;
-	  margin: 50px 400px 50px 400px;
+	  margin: 50px 100px 50px 100px;
 	  background-image: linear-gradient(to bottom, #C9C9C9, #23235e);
 	  border: 1px solid black;
 	  border-radius: 20px;
 	  width: 1200px;
-	  height: 350px;
+	  height: 680px;
 	  align-items: center;
 	 
   }
@@ -141,8 +141,15 @@ footer {
 	}
 	
 	.font2 {
-		font-size: 20px;
+		font-size: 23px;
 		margin-top: 20px;
+		color: white;
+		text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+	 padding: 20px;
 	}
 	
 	.font3 {
@@ -152,3 +159,125 @@ footer {
 		border-bottom: 1px solid black;
 		margin-right: 480px;
 	}
+	
+	.boxshadow {
+  text-shadow: 9px 13px 9px black;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Monotype Corsiva;
+  color: white
+}
+	/* Reset */
+
+main {
+  line-height: 1.6;
+  color: #333;
+}
+
+
+
+
+/* Bloco 2 – Inspiracional */
+.sobre-inspiracao {
+  
+  
+  text-align: center;
+  font-style: italic;
+}
+.sobre-inspiracao blockquote {
+  font-size: 1.5rem;
+  border-left: 5px solid #ff8800;
+  display: inline-block;
+  color: white;
+  text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+	 padding: 20px;
+	 margin-top: 20px;
+}
+
+/* Bloco 3 – Curiosidades */
+.sobre-curiosidades {
+  background: white;
+  padding: 60px 15%;
+}
+.sobre-curiosidades h2 {
+  color: #23235e;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sobre-curiosidades ul {
+  list-style: none;
+  max-width: 800px;
+  margin: auto;
+}
+.sobre-curiosidades li {
+  background: #eee;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+sobre-curiosidades li:hover {
+	opacity: 0.5;
+	  
+}
+
+
+
+/* Bloco 5 – Engajamento */
+.sobre-engajamento {
+  background: #f9f9f9;
+  padding: 60px 15%;
+  text-align: center;
+  margin: 0px 300px 0px 300px;
+}
+.sobre-engajamento h2 {
+  color: #23235e;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+.sobre-engajamento p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+.btn-instagram {
+  background: #e1306c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-instagram:hover {
+  background: #c7295e;
+}
+
+/* Bloco 6 – Chamada Final */
+.sobre-final {
+  background: linear-gradient(to right, #23235e, #1b1b40);
+  color: white;
+  padding: 70px 15%;
+  text-align: center;
+  margin: 0px 300px 0px 300px;
+  border-radius: 25px;
+}
+.sobre-final h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+.sobre-final p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;	
+}
+
