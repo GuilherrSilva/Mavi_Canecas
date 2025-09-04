@@ -164,9 +164,7 @@ hover {
     justify-content: center;
 	font-family: Bodoni MP;
     background-position: center; 
-	margin-top: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
+
   
 }
   
@@ -218,7 +216,6 @@ hover {
      1px -1px 0 orange,
     -1px  1px 0 orange,
      1px  1px 0 orange;
-	 margin-top: 0px;
   }
   
   .bora {
