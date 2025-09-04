@@ -1,0 +1,174 @@
+input, select, textarea, button {
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color:#23235e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#23235e;
+  
+}
+
+form{
+  display: block;
+ background-color:#23235e;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 20px;
+  margin-top: 100px;
+  text-align: center;
+  
+}
+
+h2 {
+ 	 font-size: 54px;
+	 Font-family: Arial black;
+	 color: white;
+	 
+ 
+
+}
+
+.texto{
+	color: white;
+	itens-align: center;
+}
+
+.tx {
+	display: flex;
+}
+ body {
+	 background-image: url(https://img.freepik.com/fotos-gratis/imagem-de-fundo-de-papel-de-parede-abstrato-bege_53876-102527.jpg);
+	
+	
+   
+        
+ }
+ 
+ * {
+  margin: 0;
+  padding: 0;
+  gap: 10px
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: Constantia;
+  background: #23235e;
+  height: 18vh;
+}
+
+.logo {
+  font-family: Monotype Corsiva;
+}
+
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+/*
+.position {
+  position: relative;
+  top: -65px;
+  left: 630px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}*/
+
+@keyframes aparecer {
+  from {opacity:0; transform: translateY(20px);}
+  to{opacity: 1; transform: translateY(0);}
+  
+}
+
+.position, li, .boxshadow {
+  animation: aparecer 1s ease-in-out
+}
+
+footer {
+  background-color: #23235e;
+
+  margin: 0;
+  overflow: hidden;
+  margin-top: 90px;
+}
+
+.bora {
+	  display: grid;
+	  justify-content: center;
+	  text-shadow: 
+    -1px -1px 0 Black,
+     1px -1px 0 Black,
+    -1px  1px 0 Black,
+     1px  1px 0 Black;
+	 color: white;
+}
+
+ .ftr2 {
+	  display: flex;
+	  justify-content: center;
+  }
+  
+	.cddc {
+	  display: block;
+	  justify-content: center;
+  }
+
+.	clr2 {
+	color: white;
+	text-shadow: 
+    -1px -1px 0 black,  
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+  
+  .boxshadow {
+  text-shadow: 9px 13px 9px black;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Monotype Corsiva;
+  color: white
+}
+
+ 
+ .dpfx {
+	 display: flex;
+	 justify-content: center;
+ }
