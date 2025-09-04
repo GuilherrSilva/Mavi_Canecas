@@ -122,6 +122,8 @@ nav {
 
 footer {
   background-color: #23235e;
+
+  margin: 0;
   overflow: hidden;
   margin-top: 90px;
 }
@@ -169,11 +171,4 @@ footer {
  .dpfx {
 	 display: flex;
 	 justify-content: center;
-
  }
- 
- .bttom {
-	 color: white;
-	 background-color: green;
- }
- 
