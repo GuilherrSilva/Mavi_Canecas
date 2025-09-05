@@ -242,7 +242,7 @@ hover {
   
   
   .clr2 {
-	itens-align: center;
+	align-items: center;
 	color: white;
 	text-shadow: 
     -1px -1px 0 black,  
@@ -533,17 +533,8 @@ Estudos mostram que o sabor do café pode ser percebido de forma diferente depen
   
 
 
-<<<<<<< HEAD
-/*  <div class="carrossel">
-    <div class="slides">
-      <img src="Imagens/Caneca5.png" alt="Imagem 1">
-      <img src="Imagens/Caneca4.png" alt="Imagem 2">
-      <img src="Imagens/Caneca3.png" alt="Imagem 3">
-      <img src="Imagens/Caneca2.png" alt="Imagem 4">
-    </div>
-  </div> */
-=======
-1. História da Marca
+
+ História da Marca
 
 "Tudo começou com um sonho simples, mas cheio de amor. João sempre teve paixão por café e por momentos compartilhados em volta de uma boa conversa. Quando decidiu abrir sua empresa de canecas, queria que o nome tivesse algo especial, algo que fosse mais que apenas uma marca. Foi então que pensou na filha, Ana Clara. Em homenagem a ela, nasceu a ‘Clara Canecas’, uma empresa que carrega não só qualidade, mas também afeto em cada produto. Cada caneca vendida traz consigo a lembrança de que os melhores momentos são simples: um café quente, uma boa companhia e um detalhe que faz toda diferença."
 

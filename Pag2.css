@@ -106,10 +106,11 @@ footer {
 	.block {
 	  display: flex;
 	  justify-content: center;
-	  margin: 50px 100px 50px 100px;
-	  background-image: linear-gradient(to bottom, #C9C9C9, #23235e);
-	  border: 1px solid black;
+    margin: 50px 400px 50px 400px;
+	  align-items: center;
+	  background-color: #23235e;
 	  border-radius: 20px;
+    box-shadow: 10px 10px black;
 	  width: 1200px;
 	  height: 680px;
 	  align-items: center;
@@ -155,7 +156,7 @@ footer {
 	.font3 {
 		font-size: 25px;
 		margin-top: 20px;
-		color: #23235e;
+		color: #af6a1adc;
 		border-bottom: 1px solid black;
 		margin-right: 480px;
 	}
@@ -215,6 +216,14 @@ main {
   max-width: 800px;
   margin: auto;
 }
+
+.animando:hover {
+	transform: scale(1.1);
+  transition-property: transform, background-color;
+  transition-duration: 3s 3s;
+  background-color: rgba(0,0,0,0.4);
+}
+
 .sobre-curiosidades li {
   background: #eee;
   margin: 10px 0;
@@ -231,12 +240,13 @@ sobre-curiosidades li:hover {
 
 
 
-/* Bloco 5 – Engajamento */
+/* Bloco 4 – Engajamento */
 .sobre-engajamento {
   background: #f9f9f9;
   padding: 60px 15%;
   text-align: center;
-  margin: 0px 300px 0px 300px;
+  margin: 0px 300px 50px 300px;
+  border-radius: 20px;
 }
 .sobre-engajamento h2 {
   color: #23235e;
@@ -260,7 +270,7 @@ sobre-curiosidades li:hover {
   background: #c7295e;
 }
 
-/* Bloco 6 – Chamada Final */
+/* Bloco 5 – Chamada Final */
 .sobre-final {
   background: linear-gradient(to right, #23235e, #1b1b40);
   color: white;
@@ -281,3 +291,7 @@ sobre-curiosidades li:hover {
   margin-right: auto;	
 }
 
+.separacao {
+  display: inline-block;
+ 
+}

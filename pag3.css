@@ -39,7 +39,7 @@ h2 {
 
 .texto{
 	color: white;
-	itens-align: center;
+	align-items: center;
 }
 
 .tx {
@@ -99,16 +99,7 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
 }
-/*
-.position {
-  position: relative;
-  top: -65px;
-  left: 630px;
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-  
-}*/
+
 
 @keyframes aparecer {
   from {opacity:0; transform: translateY(20px);}
@@ -149,7 +140,7 @@ footer {
 	  justify-content: center;
   }
 
-.	clr2 {
+.clr2 {
 	color: white;
 	text-shadow: 
     -1px -1px 0 black,  
