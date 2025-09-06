@@ -216,6 +216,7 @@ hover {
      1px -1px 0 orange,
     -1px  1px 0 orange,
      1px  1px 0 orange;
+	 margin-bottom: 100px
   }
   
   .bora {
@@ -335,7 +336,7 @@ hover {
     }
   
   .magin {
-	  margin-top: 300px;
+	  margin-top: 10px;
   }
   
   .dnv{

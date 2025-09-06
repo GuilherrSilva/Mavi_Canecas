@@ -44,16 +44,6 @@ nav {
   letter-spacing: 3px;
   margin-left: 32px;
 }
-/*
-.position {
-  position: relative;
-  top: -65px;
-  left: 630px;
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-  
-}*/
 
 @keyframes aparecer {
   from {opacity:0; transform: translateY(20px);}
@@ -70,7 +60,7 @@ footer {
 
   margin: 0;
   overflow: hidden;
-  margin-top: 90px;
+  
 }
 
 .bora {
@@ -106,7 +96,7 @@ footer {
 	.block {
 	  display: flex;
 	  justify-content: center;
-    margin: 50px 400px 50px 400px;
+    margin: 1px 400px 50px 400px;
 	  align-items: center;
 	  background-color: #23235e;
 	  border-radius: 20px;
@@ -174,6 +164,8 @@ footer {
 main {
   line-height: 1.6;
   color: #333;
+  background-image: url(https://wallpapers.com/images/featured/fundo-bege-75a4t3g3s4my02y5.jpg);
+  margin-bottom: 0px;
 }
 
 
@@ -204,6 +196,7 @@ main {
 .sobre-curiosidades {
   background: white;
   padding: 60px 15%;
+  background-image: url(https://wallpapers.com/images/featured/fundo-bege-75a4t3g3s4my02y5.jpg);
 }
 .sobre-curiosidades h2 {
   color: #23235e;
