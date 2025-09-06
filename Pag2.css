@@ -57,7 +57,6 @@ nav {
 
 footer {
   background-color: #23235e;
-
   margin: 0;
   overflow: hidden;
   
@@ -84,7 +83,8 @@ footer {
 	  justify-content: center;
   }
 
-.	clr2 {
+  .clr2 {
+	align-items: center;
 	color: white;
 	text-shadow: 
     -1px -1px 0 black,  

@@ -51,7 +51,6 @@ nav {
 
 footer {
   background-color: #23235e;
-
   margin: 0;
   overflow: hidden;
   margin-top: 90px;
@@ -62,7 +61,7 @@ footer {
 }
 
 .display {
-  display: grid;;
+  display: grid;
   justify-content: end;
   padding: 10px;
 }
@@ -161,9 +160,9 @@ hover {
 
 .introduct {
 	display: flex;
-    justify-content: center;
+  justify-content: center;
 	font-family: Bodoni MP;
-    background-position: center; 
+  background-position: center; 
 
   
 }
