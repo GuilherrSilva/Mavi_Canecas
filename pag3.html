@@ -1,120 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mavi Canecas</title>
-    <link rel="stylesheet" href="pag3.css" />
-  </head>
-  
-    <body>
-    <!-- Cabeçalho-->
-    <section id="#primeira">
-    <header>
-      <section class="dnv">
-      <nav>
-        <p class="boxshadow"> Mavi Canecas </p>
-        
-        <img src="https://storage.googleapis.com/mk-tools/permanent/trace/b280370c-e700-4da9-8e8e-6dc25fa115e2_300w_autoh.png" width="55px" class="position">
-         </img>
-       
-        <ul class="nav-list">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pag2.html">Sobre Nós</a></li>
-          <li><a href="pag3.html">Contato</a></li>
-        </ul>
-        
-      </nav>
-  
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mavi Canecas</title>
+  <link rel="stylesheet" href="pag3.css" />
+</head>
+<body>
 
-  <main>
-  
-  <form action="https://formsubmit.co/mavicanecas" method="get">
-    <h2> Preencha as Informções a seguir </h2>
+<!-- Cabeçalho -->
+<header>
+  <nav>
+    <p class="boxshadow">Mavi Canecas</p>
+    <img src="https://storage.googleapis.com/mk-tools/permanent/trace/b280370c-e700-4da9-8e8e-6dc25fa115e2_300w_autoh.png" width="55" alt="Logo Mavi" class="position">
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="pag2.html">Sobre Nós</a></li>
+      <li><a href="pag3.html">Contato</a></li>
+    </ul>
+  </nav>
+</header>
 
+<main>
+  <!-- Formulário -->
+  <form action="https://formsubmit.co/abacaxiespinhudo@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="https://yourdomain.co/agradecimento.html">
+    <h2>Preencha as informações</h2>
 
-<div class="dpfx"> <label for="nome"> <p class="texto">Nome: </p> 
-<input type="texto" name="nome" id="name" required />
-</label>
+    <label for="name">Nome:</label>
+    <input type="text" name="nome" id="name" required />
 
-<div><label> <p class="texto"> Data de Nascimento: </p> </label> <input type="date" name="nascimento"> </div> </div>
+    <label for="nascimento">Data de Nascimento:</label>
+    <input type="date" name="nascimento" id="nascimento" />
 
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" required />
 
+    <fieldset>
+      <legend>Quer receber novidades no e-mail?</legend>
+      <label><p>Sim</p><input type="radio" name="novidades" value="sim"> </label>
+      <label><p>Não</p><input type="radio" name="novidades" value="nao"> </label>
+    </fieldset>
 
-  <label> <p class="texto"> CPF: </p>
-    <input type="CPF" name="CPF" placeholder="Digite seu CPF">
-</label> 
-  <p class="texto">  E-mail </p>
-<label>
-  <input type="email" name="email">
-</label>
+    <label for="estado">De que parte de São Paulo você é?</label>
+    <select name="estado" id="estado">
+      <option value="ZO">Zona Oeste</option>
+      <option value="ZL">Zona Leste</option>
+      <option value="ZS">Zona Sul</option>
+      <option value="SP">Capital</option>
+    </select>
 
+    <label for="mensagem">Pedido da caneca:</label>
+    <textarea name="mensagem" id="mensagem" rows="4"></textarea>
 
-  
-  <label>
-  
-  
+    <button type="submit">Enviar</button>
+  </form>
+
+  <!-- Bloco 6 – Chamada Final -->
+  <section class="sobre-final">
+    <h2>Transforme sua rotina</h2>
+    <p>Sua mesa merece mais cor, mais estilo e mais personalidade. Escolha agora sua caneca e deixe seus momentos ainda mais especiais.</p>
+    <p>Quer garantir a sua? É super simples! Basta entrar em contato com a gente pelo Instagram oficial. Você pode escolher entre os modelos disponíveis ou até mesmo criar algo totalmente único.</p>
+    <a href="https://www.instagram.com/mavi_canecas22" target="_blank" class="btn-instagram">Peça a sua agora!</a>
+  </section>
+</main>
+
+<!-- Rodapé -->
+<footer>
+  <section class="bora">
+    <img src="https://storage.googleapis.com/mk-tools/permanent/trace/b280370c-e700-4da9-8e8e-6dc25fa115e2_300w_autoh.png" width="100" alt="Logo Mavi" class="position2">
+
+    <div class="ftr2">
+      <div class="cddc">
+        <a href="https://www.instagram.com/mavi_canecas22?igsh=YWF5YXV0azVmanB1/" target="_blank">
+          <img src="Imagens/Instagram.png" width="50" alt="Instagram">
+        </a>
+      </div>
       
-      <p class="texto"> Quero receber novidades no E-mail </p>
-  </label>
+    </div>
 
-<label>  <input type="radio" name="cargo" value="estudante"> <p class="texto"> Sim </p> </div> </label>
+    <div class="clr2">
+      <p>Política de privacidade</p>
+      <p>Política de termos e serviço</p>
+      <p>Central de atendimento CEP CPF</p>
+    </div>
+  </section>
+</footer>
 
-<label> <input type="radio" name="cargo"value="professor">  <p class="texto"> Não </p> </div> </label>
-<p class="onde"> De que parte de São Paulo voce é? </p>
-<select name="estado">
-  <option value="ZO">Zona Oeste</option>
-  <option value="ZL">Zona Leste</option>
-  <option value="ZS">Zona Sul</option>
-  <option value="SP">Capital</option>
-</select>
-  <p class="texto"> Fale Seu Feedback da Loja: </p>
-<textarea s name="mensagem" rows="4" cols="30"></textarea>
 
-<div>
 
-<button   type="submit">Enviar</button> 
-
-</div>
-</form>
-  <footer> 
-  
-   <section class="bora">
-  
-    
-   
-	<center>
-	<img src="https://storage.googleapis.com/mk-tools/permanent/trace/b280370c-e700-4da9-8e8e-6dc25fa115e2_300w_autoh.png" width="100px" src="logo_mavi" class="position2">
-    </center>   
-      </img>
-	
-   <div class="ftr2">
-   <div class="cddc">
-	 <a href="https://www.instagram.com/mavi_canecas22?igsh=YWF5YXV0azVmanB1/" target="_blank"> <img src="Imagens/Instagram.png"   width="50px">   </img> </a>
-   
-	</div>
-	<div>
-<a href="https://www.instagram.com/mavi_canecas22?igsh=YWF5YXV0azVmanB1/" target="_blank"> <img src="https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_640.png" width="41px" class="arm"> </img> </a>
-	  
-	</div>
-	
-		
-		
-	</div>
-	
-	<div class="clr2">
-	<center>
-	<p>Politica de privacidade </p>
-		<p>Politica de termo Politica de serviço</p>
-		
-		<p>Central de atendimento CEP CPF </p>
-		
-		
-		<p></p>
-		</center>
-	</div>	
-	</section>
-  </footer>
-  </body>
+</body>
 </html>
