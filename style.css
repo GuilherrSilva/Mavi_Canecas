@@ -71,8 +71,7 @@ footer {
 .position:hover {
   opacity: 0.5;
 }
-
-.boxshadow {
+  .boxshadow {
   text-shadow: 9px 13px 9px black;
   font-size: 24px;
   text-transform: uppercase;
@@ -80,7 +79,6 @@ footer {
   font-family: Monotype Corsiva;
   color: white
 }
-
  ul {
   text-shadow: 9px 13px 9px black;
   
@@ -106,23 +104,23 @@ header {
 
   .mavi {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   gap: 40px;
   height: 70%;
   width: 80%;
-  flex-wrap: wrap;
-  margin-top: 100px;
+  flex-wrap: wrap; 
   flex-shrink: 0;
-  flex-basis: 30%;  
+  flex-basis: 30%; 
+ border-left: 7px solid #23235e;	 
+  margin: 100px 50px 0px 50px;
 }
     
   .mv {
-    
-  border: 1px solid #000;
-  border-radius: 20px;
-  padding: 20px;
-  gap: 2em;
-  box-shadow: 10px 10px #23235e;
+   box-shadow: 5px 5px 10px #23235e,
+	0px 0px 10px #23235e inset;		
+	border: 2px solid #23235e;	 
+	gap: 2em;
+	border-radius: 20px;
   background: #fff;
   transition-property: transform, background-color;
   transition-duration: 0.7s;
@@ -318,31 +316,7 @@ hover {
 	  margin-bottom: 750px;
   }
   
-  @media (max-width: 768px) {
  
-
- nav {
-    flex-direction: column;
-    height: auto;
-    padding: 10px;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-top: 10px;
-  }
-
-  .pp {
-    font-size: 2rem;
-  }
-
-  .mavi {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 @media (max-width: 480px) {
   .mavi {
     grid-template-columns: 1fr;
@@ -421,336 +395,13 @@ hover {
   }
 }
   
+  /*Borda diferenciada*/
   
+   box-shadow: 0px 0px 10px #ff00f2;
+			0px 0px 10px #ff00f2 inset;
+			
+	border: 2px solid #ff00f2;
+	height: 100px;
+	width: 100px;	
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*<div class="bord2">
-      <img src="Imagens/Mescla.png" width="400px" class="circle">
-      </img>
-      </div>*/
-	  
-	 /* <article>
-	 <div class="bord">
-	 <p class="txt">Mais que uma caneca </p>
-	 <p class="txt2"> As canecas não são apenas objetos,
-	 são companheiras de momentos especiais.
-	 Seja no café da manhã que desperta, no chá
-	 que acalma ou naquela bebida quente que acompanha
-	 um bom livro, cada caneca carrega consigo um
-	 pedacinho da sua rotina e do seu estilo. Aqui, você
-	 encontra modelos que unem praticidade, beleza e personalidade
-	 — porque até os detalhes mais simples podem transformar o seu dia.</p>
-	 </div>
-	</article>
-
-4. Texto Inspiracional
-
-"Uma caneca nunca é só uma caneca. Ela pode ser a lembrança de um dia especial, o presente que você ganhou de alguém querido ou até o objeto que guarda o cheiro do seu café favorito. Aqui, cada peça é pensada pra ser mais que um acessório: é um detalhe que acompanha sua rotina, trazendo memórias, afeto e estilo."
-
-5. Texto de Engajamento (Instagram)
-
-"Qual é a primeira coisa que você faz de manhã? Pra muita gente, é preparar aquele café fresquinho. E nada melhor do que começar o dia com uma caneca que tem a sua cara. Qual frase ou desenho você colocaria na sua caneca? Conta aqui nos comentários!"
-
-6. Texto de Promoção
-
-"Quer transformar sua rotina com um detalhe simples, mas poderoso? Conheça nossa coleção de canecas exclusivas. Designs criativos, resistentes e feitos pra durar. E o melhor: você pode personalizar e deixar do seu jeito. Entre em contato pelo nosso Instagram e peça já a sua."
-
-7. Texto de Curiosidade Estendida
-
-"Você sabia que a cor da sua caneca pode mudar a forma como você sente o sabor da bebida? Pesquisadores descobriram que bebidas quentes parecem mais intensas em canecas de cores escuras, enquanto canecas claras dão a sensação de suavidade. Ou seja, até a sua escolha de caneca influencia na experiência de saborear seu café ou chá."
-
-8. Texto de Cliente Feliz (simulação de depoimento)
-
-"Comprei minha caneca personalizada e fiquei apaixonada! Pedi pra colocar a foto do meu cachorro e ficou perfeita. Além de ser linda, a qualidade é incrível. Agora, tomar café da manhã tem outro gosto." – Mariana S.
-
-9. Texto de Chamada para Ação
-
-"Sua mesa merece mais cor, mais estilo e mais personalidade. Escolha agora sua caneca e deixe seus momentos ainda mais especiais. É só mandar uma mensagem no Instagram e garantir a sua."
-
-10. Texto Criativo com Tom Adolescente/Descolado
-
-"Café? Suco? Chá? Água? Não importa! Caneca é tipo aquele parceiro que tá sempre pronto. A diferença é que aqui você pode ter um parceiro do jeitinho que você quiser. Manda a foto, o desenho, até aquele meme que só você e seus amigos entendem, e a gente transforma em uma caneca braba. Bora pedir a sua?"
-
-11. Texto para Página “Sobre Nós”
-
-"Mais do que vender canecas, nossa missão é criar lembranças. Cada produto carrega histórias: pode ser a homenagem a um amigo, o presente criativo que surpreende alguém ou até um mimo pra você mesmo. Tudo começou pequeno, mas com muito carinho. Hoje, a gente segue acreditando que um objeto simples pode transformar momentos em memórias inesquecíveis."
-
-
-1. História da Marca
-
-"Tudo começou com um sonho simples, mas cheio de amor. João sempre teve paixão por café e por momentos compartilhados em volta de uma boa conversa. Quando decidiu abrir sua empresa de canecas, queria que o nome tivesse algo especial, algo que fosse mais que apenas uma marca. Foi então que pensou na filha, Ana Clara. Em homenagem a ela, nasceu a ‘Clara Canecas’, uma empresa que carrega não só qualidade, mas também afeto em cada produto. Cada caneca vendida traz consigo a lembrança de que os melhores momentos são simples: um café quente, uma boa companhia e um detalhe que faz toda diferença."
-
-2. Curiosidades sobre Canecas
-
-A primeira caneca de que se tem registro histórico foi feita de osso há mais de 4 mil anos.
-
-Na Idade Média, canecas eram feitas de madeira e metal, mas com o tempo foram substituídas pela cerâmica.
-
-A palavra “mug” em inglês é usada tanto para caneca quanto para rosto (curioso, né?).
-
-Canecas personalizadas se tornaram presentes populares porque unem utilidade com significado pessoal.
-
-Estudos mostram que o sabor do café pode ser percebido de forma diferente dependendo da cor da caneca!
-
-3. Como Solicitar a Sua Caneca
-
-"Quer garantir a sua caneca? É super simples! Basta entrar em contato com a gente pelo Instagram oficial da loja. Você pode escolher entre os modelos disponíveis ou até mesmo criar algo totalmente único. Se quiser uma caneca personalizada, é só mandar a foto, frase ou desenho que deseja estampar. A gente cuida de todo o processo e transforma sua ideia em uma peça especial que vai acompanhar seus melhores momentos. Peça já a sua e descubra como uma simples caneca pode ter tanto significado."	*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-
-
- História da Marca
-
-"Tudo começou com um sonho simples, mas cheio de amor. João sempre teve paixão por café e por momentos compartilhados em volta de uma boa conversa. Quando decidiu abrir sua empresa de canecas, queria que o nome tivesse algo especial, algo que fosse mais que apenas uma marca. Foi então que pensou na filha, Ana Clara. Em homenagem a ela, nasceu a ‘Clara Canecas’, uma empresa que carrega não só qualidade, mas também afeto em cada produto. Cada caneca vendida traz consigo a lembrança de que os melhores momentos são simples: um café quente, uma boa companhia e um detalhe que faz toda diferença."
-
-2. Curiosidades sobre Canecas
-
-A primeira caneca de que se tem registro histórico foi feita de osso há mais de 4 mil anos.
-
-Na Idade Média, canecas eram feitas de madeira e metal, mas com o tempo foram substituídas pela cerâmica.
-
-A palavra “mug” em inglês é usada tanto para caneca quanto para rosto (curioso, né?).
-
-Canecas personalizadas se tornaram presentes populares porque unem utilidade com significado pessoal.
-
-Estudos mostram que o sabor do café pode ser percebido de forma diferente dependendo da cor da caneca!
-
-3. Como Solicitar a Sua Caneca
-
-"Quer garantir a sua caneca? É super simples! Basta entrar em contato com a gente pelo Instagram oficial da loja. Você pode escolher entre os modelos disponíveis ou até mesmo criar algo totalmente único. Se quiser uma caneca personalizada, é só mandar a foto, frase ou desenho que deseja estampar. A gente cuida de todo o processo e transforma sua ideia em uma peça especial que vai acompanhar seus melhores momentos. Peça já a sua e descubra como uma simples caneca pode ter tanto significado."	*/
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /*<div class="bord2">
-      <img src="Imagens/Mescla.png" width="400px" class="circle">
-      </img>
-      </div>*/
-	  
-	 /* <article>
-	 <div class="bord">
-	 <p class="txt">Mais que uma caneca </p>
-	 <p class="txt2"> As canecas não são apenas objetos,
-	 são companheiras de momentos especiais.
-	 Seja no café da manhã que desperta, no chá
-	 que acalma ou naquela bebida quente que acompanha
-	 um bom livro, cada caneca carrega consigo um
-	 pedacinho da sua rotina e do seu estilo. Aqui, você
-	 encontra modelos que unem praticidade, beleza e personalidade
-	 — porque até os detalhes mais simples podem transformar o seu dia.</p>
-	 </div>
-	</article>
-
-4. Texto Inspiracional
-
-"Uma caneca nunca é só uma caneca. Ela pode ser a lembrança de um dia especial, o presente que você ganhou de alguém querido ou até o objeto que guarda o cheiro do seu café favorito. Aqui, cada peça é pensada pra ser mais que um acessório: é um detalhe que acompanha sua rotina, trazendo memórias, afeto e estilo."
-
-5. Texto de Engajamento (Instagram)
-
-"Qual é a primeira coisa que você faz de manhã? Pra muita gente, é preparar aquele café fresquinho. E nada melhor do que começar o dia com uma caneca que tem a sua cara. Qual frase ou desenho você colocaria na sua caneca? Conta aqui nos comentários!"
-
-6. Texto de Promoção
-
-"Quer transformar sua rotina com um detalhe simples, mas poderoso? Conheça nossa coleção de canecas exclusivas. Designs criativos, resistentes e feitos pra durar. E o melhor: você pode personalizar e deixar do seu jeito. Entre em contato pelo nosso Instagram e peça já a sua."
-
-7. Texto de Curiosidade Estendida
-
-"Você sabia que a cor da sua caneca pode mudar a forma como você sente o sabor da bebida? Pesquisadores descobriram que bebidas quentes parecem mais intensas em canecas de cores escuras, enquanto canecas claras dão a sensação de suavidade. Ou seja, até a sua escolha de caneca influencia na experiência de saborear seu café ou chá."
-
-8. Texto de Cliente Feliz (simulação de depoimento)
-
-"Comprei minha caneca personalizada e fiquei apaixonada! Pedi pra colocar a foto do meu cachorro e ficou perfeita. Além de ser linda, a qualidade é incrível. Agora, tomar café da manhã tem outro gosto." – Mariana S.
-
-9. Texto de Chamada para Ação
-
-"Sua mesa merece mais cor, mais estilo e mais personalidade. Escolha agora sua caneca e deixe seus momentos ainda mais especiais. É só mandar uma mensagem no Instagram e garantir a sua."
-
-10. Texto Criativo com Tom Adolescente/Descolado
-
-"Café? Suco? Chá? Água? Não importa! Caneca é tipo aquele parceiro que tá sempre pronto. A diferença é que aqui você pode ter um parceiro do jeitinho que você quiser. Manda a foto, o desenho, até aquele meme que só você e seus amigos entendem, e a gente transforma em uma caneca braba. Bora pedir a sua?"
-
-11. Texto para Página “Sobre Nós”
-
-"Mais do que vender canecas, nossa missão é criar lembranças. Cada produto carrega histórias: pode ser a homenagem a um amigo, o presente criativo que surpreende alguém ou até um mimo pra você mesmo. Tudo começou pequeno, mas com muito carinho. Hoje, a gente segue acreditando que um objeto simples pode transformar momentos em memórias inesquecíveis."
-
-
-1. História da Marca
-
-"Tudo começou com um sonho simples, mas cheio de amor. João sempre teve paixão por café e por momentos compartilhados em volta de uma boa conversa. Quando decidiu abrir sua empresa de canecas, queria que o nome tivesse algo especial, algo que fosse mais que apenas uma marca. Foi então que pensou na filha, Ana Clara. Em homenagem a ela, nasceu a ‘Clara Canecas’, uma empresa que carrega não só qualidade, mas também afeto em cada produto. Cada caneca vendida traz consigo a lembrança de que os melhores momentos são simples: um café quente, uma boa companhia e um detalhe que faz toda diferença."
-
-2. Curiosidades sobre Canecas
-
-A primeira caneca de que se tem registro histórico foi feita de osso há mais de 4 mil anos.
-
-Na Idade Média, canecas eram feitas de madeira e metal, mas com o tempo foram substituídas pela cerâmica.
-
-A palavra “mug” em inglês é usada tanto para caneca quanto para rosto (curioso, né?).
-
-Canecas personalizadas se tornaram presentes populares porque unem utilidade com significado pessoal.
-
-Estudos mostram que o sabor do café pode ser percebido de forma diferente dependendo da cor da caneca!
-
-3. Como Solicitar a Sua Caneca
-
-"Quer garantir a sua caneca? É super simples! Basta entrar em contato com a gente pelo Instagram oficial da loja. Você pode escolher entre os modelos disponíveis ou até mesmo criar algo totalmente único. Se quiser uma caneca personalizada, é só mandar a foto, frase ou desenho que deseja estampar. A gente cuida de todo o processo e transforma sua ideia em uma peça especial que vai acompanhar seus melhores momentos. Peça já a sua e descubra como uma simples caneca pode ter tanto significado."	*/
-
-
-
-
-	
-
-
-
-
->>>>>>> b6a3032e2cc9228a7bafb4fd39ff68e4c4c31c1b

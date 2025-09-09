@@ -10,6 +10,11 @@ a {
   transition: 0.3s;
 }
 
+header {
+	width: 100%;
+	weight: 100%;
+}
+
 a:hover {
   opacity: 0.5;
 }
@@ -64,6 +69,7 @@ footer {
 
 .bora {
 	  display: grid;
+	  place-items: center;
 	  justify-content: center;
 	  text-shadow: 
     -1px -1px 0 Black,
@@ -73,6 +79,10 @@ footer {
 	 color: white;
 }
 
+  footer img {
+	  align-items: center;
+  }
+  
  .ftr2 {
 	  display: flex;
 	  justify-content: center;
@@ -288,3 +298,57 @@ sobre-curiosidades li:hover {
   display: inline-block;
  
 }
+
+ ul {   
+  text-shadow: 9px 13px 9px black;
+  }
+  
+   @media (max-width: 1024px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .block {
+        flex-direction: column;
+        padding: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .logo {
+        font-size: 20px;
+      }
+      .nav-list {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .font {
+        font-size: 28px;
+      }
+      .font2 {
+        font-size: 16px;
+      }
+      .sobre-curiosidades, .sobre-engajamento, .sobre-final {
+        padding: 20px;
+        margin: 10px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      nav {
+        padding: 10px;
+      }
+      .nav-list {
+        gap: 5px;
+      }
+      .block {
+        margin: 10px;
+      }
+      .font {
+        font-size: 24px;
+      }
+      footer img {
+        max-width: 60px;
+      }
+    }
+  

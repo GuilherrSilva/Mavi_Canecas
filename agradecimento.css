@@ -1,0 +1,59 @@
+
+    /* Reset simples */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f2f2f2;
+    }
+
+    .thank-container {
+      background-color: #23235e;
+      color: white;
+      padding: 40px 60px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      max-width: 500px;
+      width: 90%;
+      animation: fadeIn 1s ease;
+    }
+
+    .thank-container h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .thank-container p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .thank-container a {
+      display: inline-block;
+      text-decoration: none;
+      color: #23235e;
+      background-color: #fff;
+      padding: 10px 25px;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .thank-container a:hover {
+      background-color: #dcdcfb;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }

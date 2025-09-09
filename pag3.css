@@ -10,7 +10,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  padding: 20px;
 }
 
 /* Cabeçalho */
@@ -135,11 +134,13 @@ nav {
 .nav-list {
   list-style: none;
   display: flex;
+
 }
 
-.nav-list li {
+nav ul li {
   letter-spacing: 3px;
   margin-left: 32px;
+
 }
 
 @keyframes aparecer {
@@ -230,3 +231,108 @@ footer {
   label p {
 	  text-align: center;
   }
+  
+  .boxshadow {
+  text-shadow: 9px 13px 9px black;
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: Monotype Corsiva;
+  color: white;
+}	
+
+  ul {   
+  text-shadow: 9px 13px 9px black;
+  }
+  
+ 
+	header {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+	
+	/* Media Queries */
+@media screen and (max-width: 1024px) {
+  form {
+    max-width: 90%;
+    padding: 30px 20px;
+  }
+
+  .sobre-final {
+    padding: 50px 10%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  form {
+    margin: 30px 10px;
+    padding: 25px 15px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+ .sobre-final {
+    padding: 40px 5%;
+    margin: 15px auto;
+  }
+
+  .sobre-final h2 {
+    font-size: 1.8rem;
+  }
+
+  .sobre-final p {
+    font-size: 1rem;
+  }
+
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  input, select, textarea, button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .sobre-final {
+    padding: 30px 5%;
+  }
+
+  .btn-instagram {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* Media Queries para tornar o bloco 6 responsivo */
+@media screen and (max-width: 1024px) {
+  .sobre-final {
+    padding: 50px 10%;
+    margin: 20px auto;
+  }
+
+  .sobre-final h2 {
+    font-size: 2rem;
+  }
+
+  .sobre-final p {
+    font-size: 1.1rem;
+  }
+}
+  
+label p {
+	text-align: center;
+}
