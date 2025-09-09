@@ -96,11 +96,11 @@ footer {
 	.block {
 	  display: flex;
 	  justify-content: center;
-    margin: 1px 400px 50px 400px;
+      margin: 30px 400px 50px 400px;
 	  align-items: center;
 	  background-color: #23235e;
 	  border-radius: 20px;
-    box-shadow: 10px 10px black;
+      box-shadow: 10px 10px black;
 	  width: 1200px;
 	  height: 680px;
 	  align-items: center;

@@ -1,4 +1,6 @@
-* {
+
+
+ *{
   margin: 0;
   padding: 0;
   gap: 10px
@@ -220,6 +222,7 @@ hover {
   
   .bora {
 	  display: grid;
+	  place-items: center;
 	  justify-content: center;
 	  text-shadow: 
     -1px -1px 0 Black,
@@ -227,7 +230,11 @@ hover {
     -1px  1px 0 Black,
      1px  1px 0 Black;
 	 color: white;
-	  
+
+  }
+  
+  footer img {
+	  align-items: center;
   }
   
   .ftr2 {
@@ -240,7 +247,6 @@ hover {
 	  justify-content: center;
   }
   
-  
   .clr2 {
 	align-items: center;
 	color: white;
@@ -251,37 +257,6 @@ hover {
      1px  1px 0 black;
   }
   
-     .carrossel {
-	
-      width: 300%;
-      max-width: 800px;
-      margin: auto;
-	  margin-left: 500px;
-      overflow: hidden;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    }
-
-    .slides {
-      display: flex;
-	  justify-content: center;
-      width: 400%;
-      animation: slide 12s infinite;
-    }
-
-    .slides img {
-      width: 100%;
-    }
-
-    @keyframes slide {
-      0% {margin-left: 0;}
-      25% {margin-left: -100%;}
-      50% {margin-left: -200%;}
-      75% {margin-left: -300%;}
-      100% {margin-left: 0;}
-    }
-
-
   
   @media (max-width: 620px) {
   header {
@@ -301,15 +276,6 @@ hover {
   nav li {
     gap: 2px;
   }
-
-  
- 
-
-  }
-
-
-
-}
   
   .ppp {
 	 color: white; 
@@ -344,16 +310,6 @@ hover {
 	  
   }
   
-    #introduct video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover; /* cobre toda a section */
-      z-index: -1; /* joga o vídeo pra trás */
-    }
-  
   .magin {
 	  margin-top: 10px;
   }
@@ -362,7 +318,108 @@ hover {
 	  margin-bottom: 750px;
   }
   
+  @media (max-width: 768px) {
+ 
+
+ nav {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .pp {
+    font-size: 2rem;
+  }
+
+  .mavi {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .mavi {
+    grid-template-columns: 1fr;
+  }
+
+  .pp {
+    font-size: 1.6rem;
+  }
+}
   
+ @media (max-width: 1024px) {
+
+  .pp {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+/* Celulares (até 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .pp {
+    font-size: 1.6rem;
+    padding: 10px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 1920px) {
+  .block {
+    width: 75%; /* mais centralizado e proporcional */
+    margin: 60px auto;
+    height: auto;
+    padding: 30px;
+  }
+
+  .font {
+    font-size: 72px; /* título maior e impactante */
+  }
+
+  .font2 {
+    font-size: 26px; /* texto do parágrafo mais confortável */
+    line-height: 1.6;
+  }
+
+  .font3 {
+    font-size: 28px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .border {
+    width: 420px; /* imagem com tamanho balanceado */
+    margin: 30px auto;
+    display: block;
+  }
+
+  nav {
+    padding: 25px 80px;
+  }
+
+  .nav-list li {
+    margin-left: 40px;
+    font-size: 20px;
+  }
+}
   
   
   
