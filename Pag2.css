@@ -23,6 +23,7 @@ a:hover {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  justify-content: center;
 }
 
 nav {
